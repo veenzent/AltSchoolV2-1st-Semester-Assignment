@@ -160,5 +160,110 @@ a {
 
 /* styles for page 2 */
 .page2 {
+    flex-direction: column;
+    gap: 12.8rem;
+}
+
+.phrase3 {
+    padding-block: 6rem;
+    padding-inline: 14rem;
+    gap: 12rem;
+}
+
+.phrase3 h3 {
+    font-family: 'Gilroy-Bold';
+    font-size: 4rem;
+    line-height: 4.8rem;
+}
+
+.phrase3 h3 span {
+    color: #005AE2;
+}
+
+.phrase3 .product-about {
+    gap: 7.2rem;
+    align-items: flex-start;
     
+}
+
+.product-about div p {
+    font-family: 'Gilroy-Medium';
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.product-about div p b {
+    font-family: 'Gilroy-Medium';
+    font-size: 3.2rem;
+    line-height: 4rem;
+}
+
+.why-choose-scissors {
+    align-items: flex-start;
+    gap: 9.6rem;
+    margin-block-end: 13rem;
+}
+
+.why {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.6rem;
+}
+
+.why div {
+    font-family: 'Gilroy-Bold';
+    font-size: 4rem;
+    line-height: 3.2rem;
+    color: #141414;
+    display: inherit;
+    gap: 1.6rem;
+}    
+
+.why div h3 span {
+    color: #005AE2;
+}    
+
+.why > p {
+    font-family: 'Gilroy-Medium';
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    max-width: 37rem;
+    margin-inline-start: 2.8rem;
+}
+
+.services {
+    flex-direction: column;
+    gap: 6.4rem;
+    align-items: flex-start;
+}
+
+.container {
+    display: inherit;
+    gap: 2.8rem;
+}
+
+.url-shortening,
+.custom-urls,
+.qr-codes,
+.data-analytics {
+    flex-direction: column;
+    gap: 1.6rem;
+    align-items: flex-start;
+}
+
+.container div img + div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.6rem;
+    width: 34rem;
+    font-family: 'Gilroy-Medium';
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.container div img + div b {
+    font-family: 'Gilroy-SemiBold';
+    font-size: 3.2rem;
+    line-height: 2.8rem;
 }
