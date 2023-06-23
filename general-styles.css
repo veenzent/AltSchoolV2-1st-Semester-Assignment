@@ -8,9 +8,9 @@
   }
 
 body {
-    line-height: 1.5;
+    /* line-height: 1.5; */
     -webkit-font-smoothing: antialiased;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     color: #141414;
 }
 
@@ -33,9 +33,8 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 html {
-    font: 62.5%, ;
+    font-size: 62.5%;
 }
 
 .container {

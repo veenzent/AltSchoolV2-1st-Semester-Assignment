@@ -4,14 +4,18 @@
     max-height: 4.4rem;
     margin-block-start: 1.2rem;
     margin-inline: auto;
-    gap: 14rem;
+    justify-content: space-between;
+    margin-block-end: 10.6rem;
 }
 
 .nav-tabs {
+    font-family: 'Gilroy-Medium';
+    font-size: 1.8rem;
     list-style: none;
     gap: 4rem;
     max-width: 50.4rem;
     max-height: 2.4rem;
+    padding: 0;
 }
 
 a {
@@ -20,10 +24,8 @@ a {
 }
 
 .myurls a {
-    font-family: 'Gilroy';
     font-size: 1.8rem;
     color: #0065FE;
-    /* color: inherit; */
     line-height: 2.1rem;
 }
 
@@ -33,15 +35,14 @@ a {
 }
 
 .nav-cta {
+    font-family: 'Gilroy-Medium';
     gap: 2.4rem;
+    font-size: 1.6rem;
+    line-height: 1.2rem;
 }
 
 .login {
     color: #0065FE;
-    font-family: 'Gilroy';
-    font-weight: 600;
-    font-size: 1.6rem;
-    line-height: 1.88rem;
 }
 
 .trial {
@@ -53,23 +54,111 @@ a {
 }
 
 
-/* CSS for hero page write-ups */
-.phrase {
-    font: 'Gilroy' Bold 4.8rem;
-    /* line-height: 9.6rem; */
+/* styles for hero page write-ups */
+.hero-page {
+    flex-direction: column;
+}
+
+.hero-catchphrase {
+    max-width: 94.8rem;
     text-align: center;
 }
 
-/* 
-font-family: Gilroy-Bold;
-font-size: 48px;
-line-height: 96px;
-letter-spacing: 0em;
-text-align: center;
+.phrase1 {
+    font-family: 'Gilroy-Bold';
+    font-size: 4.8rem;
+    line-height: 9.6rem;
+}
 
-font-family: Kanit;
-font-size: 48px;
-font-weight: 600;
-line-height: 96px;
-letter-spacing: 0em;
-text-align: center; */
+.phrase1 span {
+    display: inline-flex;
+    flex-direction: column;
+    color: #005AE2;
+}
+
+.blue-line {
+    display: inline;
+    max-width: 17.3rem;
+    margin-inline-start: 7rem;
+    margin-block-start: -1.8rem;
+}
+
+.hero-catchphrase p {
+    font-family: 'Gilroy-Medium';
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    max-width: 78.1rem;
+    margin: 0 auto;
+    padding-inline: 3rem;
+    margin-block-start: .8rem;
+}
+
+.cta {
+    font-family: 'Gilroy-Medium';
+    font-size: 1.6rem;
+    max-width: 94.8rem;
+    max-height: 38.9rem;
+    margin-block-start: 3.2rem;
+    gap: 5.6rem;
+}
+
+.signup {
+    background: #0065FE;
+    color: #FFF;
+    line-height: 1.2rem;
+    max-width: 14.2rem;
+    max-height: 4.4rem;
+    border-radius: 10rem;
+    padding-block: 1.2rem;
+    padding-inline: 2.5rem;
+}
+
+.learn-more {
+    color: #0065FE;
+}
+
+.phrase2 {
+    display: inline-flex;
+    padding: 4rem 6rem;
+    border-radius: 2.4rem;
+    border: 0.05rem solid #005AE2;
+    background: rgba(254, 254, 254, 0.10);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.6rem;
+    margin-block-start: 8rem;
+    width: 76.8rem;
+    opacity: 1;
+    backdrop-filter: blur(10.6rem);
+    margin-bottom: 7.6rem;
+}
+
+.link1 {
+    margin-inline-start: -.6rem;
+}
+
+.r-arr {
+    margin-inline: 2rem;
+}
+
+.phrase2 p {
+    font-family: 'Gilroy-Medium';
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: center;
+    align-items: stretch;
+    width: 100%;
+}
+
+.plectrum {
+    position: absolute;
+    left: 40.9rem;
+    top: 58rem;
+}
+
+
+/* styles for page 2 */
+.page2 {
+    
+}
