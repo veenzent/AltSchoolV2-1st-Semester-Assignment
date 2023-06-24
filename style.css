@@ -153,8 +153,8 @@ a {
 
 .plectrum {
     position: absolute;
-    left: 40.9rem;
-    top: 58rem;
+    left: 34rem;
+    top: 58.1rem;
 }
 
 
@@ -237,7 +237,7 @@ a {
     align-items: flex-start;
 }
 
-.container {
+.services .container {
     display: inherit;
     gap: 2.8rem;
 }
@@ -251,7 +251,7 @@ a {
     align-items: flex-start;
 }
 
-.container div img + div {
+.services .container div img + div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -262,8 +262,149 @@ a {
     line-height: 2.4rem;
 }
 
-.container div img + div b {
-    font-family: 'Gilroy-SemiBold';
+.services .container div img + div b {
+    font-family: 'Gilroy-Bold';
     font-size: 3.2rem;
     line-height: 2.8rem;
 }
+
+/* Styles for Page3 starts here */
+.page3 {
+    flex-direction: column;
+    padding-inline: 17.6rem;
+    padding-block-start: 4.2rem;
+    padding-block-end: 11.2rem;
+    gap: 6.8rem;
+}
+
+.line {
+    gap: 1.6rem;
+    align-items: flex-start;
+}
+
+.price-phrase {
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.price-phrase p {
+    font-size: 1.6rem;
+    font-family: 'Gilroy-Medium';
+    line-height: 2.4rem;
+    max-width: 56.6rem;
+    text-align: center;
+}
+
+.price-phrase p b {
+    font-size: 4rem;
+    font-family: 'Gilroy-Bold';
+    line-height: 4.8rem;
+}
+
+.price-phrase p span {
+    color: #005AE2;
+}
+
+/* styles for Price Cards */
+.basic, .pro, .teams {
+    flex-direction: column;
+    gap: 3.4rem;
+    align-items: flex-start;
+    border-radius: 1.2rem;
+    border: 0.04rem solid #005AE2;
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.05);
+    font-family: 'Gilroy-Medium';
+    font-size: 2.4rem;
+}
+
+.basic, .teams {
+    padding-block-start: 2.4rem;
+    padding-block-end: 4.5rem;
+    padding-inline-start: 8.7rem;
+    padding-inline-end: 4.5rem;
+}
+
+.basic, .teams {
+    max-width: 37.9rem;
+}
+
+.basic {
+    margin-inline-end: -1rem;
+}
+
+.teams {
+    margin-inline-start: -1rem;
+    z-index: -1;
+}
+
+.pro {
+    gap: 2.4rem;
+    padding-inline-start: 6.5rem;
+    padding-inline-end: 10.6rem;
+    padding-block-start: 9.5rem;
+    padding-block-end: 14.8rem;
+    background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0.00) 100%);
+    color: #fff;
+}
+
+.basic div,
+.pro div,
+.teams div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.6rem;
+    font-size: 2.4rem;
+}
+
+.basic div .free,
+.pro div .pro-price,
+.teams div .teams-price {
+    gap: 0.8rem;
+    font-size: 2.4rem;
+}
+
+.free p b,
+.pro-price p b,
+.teams p b {
+    font-family: 'Gilroy-Bold';
+    font-size: 4rem;
+}
+
+.free-features p,
+.pro-features p,
+.team-features p {
+    font-size: 1.4rem;
+}
+
+.free-features p img,
+.pro-features p img,
+.team-features p img {
+    display: inline;
+    margin-inline-end: 0.8rem;
+}
+
+.price-cta {
+    align-items: flex-start;
+    gap: 1.2rem;
+}
+
+.btn1, .btn2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 1.6rem;
+    width: 20rem;
+    height: 4.8rem;
+    padding-inline: 2.4rem;
+    padding-block: 1.2rem;
+    border-radius: 10rem;
+}
+
+.btn1 {
+    color: #0065FE;
+    border: 1px solid #0065FE;
+}
+
+.btn2 {
+    color: #FFF;
+    background: #0065FE;
+}
+
