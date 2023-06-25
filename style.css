@@ -396,11 +396,13 @@ a {
     padding-inline: 2.4rem;
     padding-block: 1.2rem;
     border-radius: 10rem;
+    cursor: pointer;
 }
 
 .btn1 {
     color: #0065FE;
     border: 1px solid #0065FE;
+    background-color: #FFF;
 }
 
 .btn2 {
@@ -408,3 +410,129 @@ a {
     background: #0065FE;
 }
 
+/* Styles for Page4 starts here */
+.page4 {
+    background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0.00) 100%);
+    height: 52.3rem;
+}
+
+.bgnd-vector {
+    width: 144rem;
+    justify-content: space-between;
+    position: absolute;
+    /* left: 0; */
+    right: 0;
+}
+
+.bgnd-vector img {
+    display: inline;
+}
+
+.bgnd-vector img:last-child {
+    width: 100%;
+    margin-inline-start: -47rem;
+}
+
+.shorten-url {
+    z-index: 1;
+    flex-direction: column;
+    padding-inline: 4.2rem;
+    padding-block: 4.2rem;
+    border-radius: 1.2rem;
+    background: #FFF;
+    gap: 2.4rem;
+    width: 47.6rem;
+    font-family: 'Gilroy-Medium';
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.url-prompt {
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.url-prompt .paste {
+    padding-inline-start: 2.4rem;
+    padding-inline-end: 1.2rem;
+    padding-block: 1.6rem;
+    align-items: flex-start;
+    width: 39.2rem;
+    border-radius: 1.2rem;
+    border: 1px solid #3284FF;
+}
+
+.url-prompt .paste::placeholder {
+    color: #3284FF;
+    font-size: 1.2rem;
+}
+
+.url-prompt div {
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.url-prompt div p,
+.url-prompt div input {
+    border-radius: 1.2rem;
+    border: 0.1rem solid #3284FF;
+    height: 4.8rem;
+}
+
+.url-prompt div p {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 1.4rem;
+    color: #3284FF;
+    width: 20.2rem;
+    align-items: center;
+    padding-inline: 2rem;
+    padding-block: 1.8rem;
+}
+
+.url-prompt div p img {
+    display: inline;
+}
+
+.url-prompt div input {
+    font-size: 1.2rem;
+    width: 17.8rem;
+    align-items: flex-start;
+    padding-inline-start: 2.4rem;
+    padding-inline-end: 1.2rem;
+    padding-block: 1.6rem;
+}
+
+.url-prompt div input::placeholder {
+    color: #3284FF;
+}
+
+.submit {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem;
+    color: #4991FF;
+    max-width: 39.2rem;
+}
+
+.submit button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    border-radius: 10rem;
+    background: #005AE2;
+    width: 39.2rem;
+    max-height: 4.8rem;
+    color: #FFF;
+    font-size: 1.4rem;
+    padding-inline: 2.8rem;
+    padding-block: 1.6rem;
+}
+
+.submit p {
+    padding-inline: 1rem;
+    padding-block: 1rem;
+    font-size: 1.4rem;
+}
