@@ -643,3 +643,98 @@ a {
     color: #FFF;
 }
 
+/* Styles for page 7 starts here */
+.pg7-bgnd-vectors {
+    position: absolute;
+    width: 100%;
+}
+
+.vector-1 {
+    position: absolute;
+    left: 0;
+    margin-block-end: 0rem;
+}
+
+.vector-2 {
+    position: absolute;
+    right: 0;
+    margin-block-end: -18rem;
+}
+
+.page7 {
+    flex-direction: column;
+    gap: 2.3rem;
+    /* height: 56.1rem; */
+}
+
+.footer-content {
+    margin-block-start: 9.5rem;
+    gap: 3.9rem;
+    align-items: flex-start;
+}
+
+.socials {
+    flex-direction: column;
+    gap: 3.2rem;
+    align-items: flex-start;
+}
+
+.socials .socials-logo {
+    gap: 2.4rem;
+    padding-inline: 0.8rem;
+}
+
+.wrapper {
+    gap: 2.4rem;
+    align-items: flex-start;
+    max-height: 38.4rem;
+    max-width: 81.2rem;
+}
+
+.wrapper div ul {
+    padding: 0;
+}
+
+.wrapper div ul li {
+    list-style: none;
+}
+
+.wrapper .div1,
+.div2, .div3 {
+    flex-direction: column;
+}
+
+.wrapper .div1 {
+    gap: 5.6rem;
+}
+
+.wrapper .div2 {
+    gap: 3.1rem;
+}
+
+.wrapper .div1 div,
+.wrapper .div2 div,
+.wrapper .div3 .company {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+    padding-inline: 2.4rem;
+    font-family: 'Gilroy-Medium';
+    font-size: 1.6rem;
+    width: 100%;
+}
+
+.wrapper .div1 div h4,
+.wrapper .div2 div h4 {
+    font-family: 'Gilroy-Bold';
+}
+
+.copyrights {
+    padding-inline: 1.2rem;
+    gap: 0.8rem;
+    color: #112232;
+    font-family: 'Gilroy-Medium';
+    font-size: 1.4rem;
+    margin-inline-end: -64%;
+    margin-block-end: 3.9rem;
+}
