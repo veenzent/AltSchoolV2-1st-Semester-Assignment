@@ -536,3 +536,66 @@ a {
     padding-block: 1rem;
     font-size: 1.4rem;
 }
+
+/* Styles for Page 5 starts here */
+.p5-bgnd-vector {
+    position: absolute;
+    width: 100%;
+}
+
+.bgnd1 {
+    position: absolute;
+    top: -53rem;
+    left: 0;
+}
+
+.bgnd2 {
+    position: absolute;
+    top: 8rem;
+    right: 0;
+}
+
+.faqs {
+    flex-direction: column;
+    gap: 6.4rem;
+    margin-block-start: 4.3rem;
+    margin-block-end: 15.5rem;
+    padding-inline: 32.4rem;
+}
+
+.faq {
+    gap: 1.6rem;
+    font-family: 'Gilroy-Bold';
+    font-size: 4rem;
+}
+
+.questions {
+    gap: 3.2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Gilroy-Medium;
+    font-size: 2rem;
+}
+
+.q1 {
+    gap: 1.6rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.q1 div {
+    justify-content: space-between;
+    gap: 2.4rem;
+    width: 100%;
+}
+
+.q1 div + p {
+    font-size: 1.6rem;
+}
+
+.q {
+    gap: 2.4rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
